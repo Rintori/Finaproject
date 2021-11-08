@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.sidebar-menu-item {
+  text-decoration: none;
+  color: black;
+}
+
+.sidebar-menu-item :hover{
+  animation: linear 2s;
+  color: gray;
+}

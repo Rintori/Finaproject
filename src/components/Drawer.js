@@ -112,7 +112,7 @@ export default function PersistentDrawerLeft() {
         <Divider />
         <List>
           {MenuItem.map((item) => (
-            <NavLink to={`/${item.path}`}>
+            <NavLink to={`/${item.path}`} className="sidebar-menu-item">
               <ListItem button key={item.name}>
                 <ListItemIcon>{item.icon}</ListItemIcon>
                 <ListItemText primary={item.name} />
