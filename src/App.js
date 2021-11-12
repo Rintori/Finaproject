@@ -20,7 +20,7 @@ const outerTheme = createTheme({
 const innerTheme = createTheme({
   palette: {
     primary: {
-      main: "#00FF00",
+      main: "#00AAFF",
     },
   },
 });
