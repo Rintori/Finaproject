@@ -4,6 +4,8 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Home from './components/Home';
 import ImageSlider from './components/ImageSlider';
 import { SliderData } from './components/SliderData';
+import { useState, useEffect } from 'react';
+import firebase from './components/services/firebase';
 
 import Drawer from "./components/Drawer";
 import Login from "./components/Login";
@@ -26,6 +28,16 @@ const innerTheme = createTheme({
 });
 
 function App() {
+  const [user, setUser] = useState(null)
+
+  useEffect(() => {
+    firebase.auth().onAuthStateChanged(user => {
+      setUser(user)
+    })
+  }, []);
+
+  console.log(user);
+  
   return (
     <ThemeProvider theme={outerTheme}>
       <Drawer />
