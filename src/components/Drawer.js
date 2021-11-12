@@ -24,7 +24,7 @@ import { NavLink } from "react-router-dom";
 const drawerWidth = 240;
 
 const MenuItem = [
-  { name: "Home", path: "home", icon: <HomeIcon /> },
+  { name: "Home", path: "Home", icon: <HomeIcon /> },
   { name: "Login", path: "login", icon: <LoginIcon /> },
   { name: "Sign Up", path: "signup", icon: <AccountCircleIcon /> },
   { name: "Games", path: "games", icon: <SportsEsportsIcon /> },
