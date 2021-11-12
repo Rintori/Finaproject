@@ -1,9 +1,9 @@
 export const SliderData = [
   {
-    image: './Img/Chess.jpeg'
+    image: 'https://store-images.s-microsoft.com/image/apps.3907.9007199266250076.96c3eac7-7269-4364-997b-83ef436ca137.b6355164-ef37-4aeb-bd30-f9921ee70e49'
   },
   {
-    image: './Img/OX.jpg'
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsEnG6qUWtSSnjC_s7_3v-yRVjKbIdKfKiEw&usqp=CAU'
   },
   {
     image:

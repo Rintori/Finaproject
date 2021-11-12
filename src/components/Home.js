@@ -1,6 +1,6 @@
 import ImageSlider from './ImageSlider';
 import { SliderData } from './SliderData';
-import CardGames from './CardGames';
+import CardGames from './OXCard';
 
 function Homie() {
 return (

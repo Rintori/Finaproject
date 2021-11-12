@@ -2,8 +2,6 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Home from './components/Home';
-import ImageSlider from './components/ImageSlider';
-import { SliderData } from './components/SliderData';
 import { useState, useEffect } from 'react';
 import firebase from './components/services/firebase';
 

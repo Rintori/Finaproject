@@ -11,17 +11,16 @@ export default function MediaCard() {
     <Card sx={{ maxWidth: 345 }}>
       <CardMedia
         component="img"
-        height="140"
-        image="./Img/Chess.jpeg"
+        height="240"
+        image="https://store-images.microsoft.com/image/apps.42989.9007199266246294.3244c551-ca8c-40db-9107-331e7396baf4.1cdc773f-3544-4224-b32c-b4f418418a6e"
         alt="Chess"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          Chess
+          Tic Tac Toe
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
+        The history of chess can be traced back nearly 1500 years to its earliest known predecessor, called chaturanga, in India; its prehistory is the subject of speculation. From India it spread to Persia. Following the Arab invasion and conquest of Persia, chess was taken up by the Muslim world and subsequently spread to southern Europe. The game evolved roughly into its current form by about 1500 CE.
         </Typography>
       </CardContent>
       <CardActions>
